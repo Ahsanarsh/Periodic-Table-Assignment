@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Periodic Table</title>
+    <style>
+      * {
+        padding: auto;
+        margin: auto;
+        background-color: #ddd0c8;
+      }
+      h1 {
+        padding: 15px;
+        margin-bottom: 8px;
+        background-color: #106ebe;
+        color: #0ffcbe;
+        font-weight: bold;
+      }
+      .table1 {
+        margin-bottom: 20px;
+        color: #323232;
+      }
+      .table2 {
+        color: #323232;
+      }
+      .a {
+        background-color: #c5adc5;
+      }
+      .b {
+        background-color: #c5adc5;
+      }
+      .c {
+        background-color: #c5adc5;
+      }
+      .d {
+        background-color: #c5adc5;
+      }
+      .e {
+        background-color: #c5adc5;
+      }
+      .f {
+        background-color: #c5adc5;
+      }
+      .g {
+        background-color: #c5adc5;
+      }
+      .h {
+        background-color: #c5adc5;
+      }
+      .i {
+        background-color: #c5adc5;
+      }
+      .j {
+        background-color: #00ffff;
+      }
+      .k {
+        background-color: #c5adc5;
+      }
+      .l {
+        background-color: #c5adc5;
+      }
+      .m {
+        background-color: #c5adc5;
+      }
+      .n {
+        background-color: #c5adc5;
+      }
+      .o {
+        background-color: #c5adc5;
+      }
+      .p {
+        background-color: #00ffff;
+      }
+      .q {
+        background-color: #00ffff;
+      }
+      .r {
+        background-color: #00ffff;
+      }
+      .s {
+        background-color: #00ffff;
+      }
+      .t {
+        background-color: #00ffff;
+      }
+      .u {
+        background-color: #00ffff;
+      }
+      .v {
+        background-color: #00ffff;
+      }
+      .w {
+        background-color: #00ffff;
+      }
+      .x {
+        background-color: #00ffff;
+      }
+      .y {
+        background-color: #00ffff;
+      }
+      .z {
+        background-color: #00ffff;
+      }
+      .aa {
+        background-color: #00ffff;
+      }
+      .ab {
+        background-color: #00ffff;
+      }
+      .ac {
+        background-color: #278787;
+      }
+      .ad {
+        background-color: #278787;
+      }
+      .ae {
+        background-color: #278787;
+      }
+      .af {
+        background-color: #278787;
+      }
+      .ag {
+        background-color: #278787;
+      }
+      .ah {
+        background-color: #278787;
+      }
+      .ai {
+        background-color: #278787;
+      }
+      .aj {
+        background-color: #278787;
+      }
+      .ak {
+        background-color: #278787;
+      }
+      .al {
+        background-color: #278787;
+      }
+      .am {
+        background-color: #278787;
+      }
+      .an {
+        background-color: #e5edf1;
+      }
+      .ao {
+        background-color: #e5edf1;
+      }
+      .ap {
+        background-color: #e5edf1;
+      }
+      .aq {
+        background-color: #e5edf1;
+      }
+      .ar {
+        background-color: #e5edf1;
+      }
+      .as {
+        background-color: #e5edf1;
+      }
+      .at {
+        background-color: #e5edf1;
+      }
+      .au {
+        background-color: #e5edf1;
+      }
+      .av {
+        background-color: #e5edf1;
+      }
+      .aw {
+        background-color: #e5edf1;
+      }
+      .ax {
+        background-color: #96c2db;
+      }
+      .ay {
+        background-color: #96c2db;
+      }
+      .az {
+        background-color: #96c2db;
+      }
+
+      .ba {
+        background-color: #96c2db;
+      }
+      .bb {
+        background-color: #96c2db;
+      }
+      .bc {
+        background-color: #96c2db;
+      }
+      .bd {
+        background-color: #96c2db;
+      }
+      .be {
+        background-color: #96c2db;
+      }
+      .bf {
+        background-color: #96c2db;
+      }
+      .bg {
+        background-color: #96c2db;
+      }
+      .bh {
+        background-color: #96c2db;
+      }
+      .bi {
+        background-color: #96c2db;
+      }
+      .bj {
+        background-color: #96c2db;
+      }
+      .bk {
+        background-color: #96c2db;
+      }
+      .bl {
+        background-color: #96c2db;
+      }
+      .bm {
+        background-color: #96c2db;
+      }
+      .bn {
+        background-color: #96c2db;
+      }
+      .bo {
+        background-color: #96c2db;
+      }
+      .bp {
+        background-color: #96c2db;
+      }
+      .bq {
+        background-color: #96c2db;
+      }
+      .br {
+        background-color: #96c2db;
+      }
+      .bs {
+        background-color: #96c2db;
+      }
+      .bt {
+        background-color: #96c2db;
+      }
+      .bu {
+        background-color: #96c2db;
+      }
+      .bv {
+        background-color: #96c2db;
+      }
+      .bw {
+        background-color: #96c2db;
+      }
+      .bx {
+        background-color: #96c2db;
+      }
+      .by {
+        background-color: #96c2db;
+      }
+      .bz {
+        background-color: #96c2db;
+      }
+      .ca {
+        background-color: #96c2db;
+      }
+      .cb {
+        background-color: #96c2db;
+      }
+      .cc {
+        background-color: #96c2db;
+      }
+      .cd {
+        background-color: #96c2db;
+      }
+      .ce {
+        background-color: #bfa181;
+      }
+      .cf {
+        background-color: #bfa181;
+      }
+      .cg {
+        background-color: #bfa181;
+      }
+      .ch {
+        background-color: #bfa181;
+      }
+      .ci {
+        background-color: #bfa181;
+      }
+      .cj {
+        background-color: #bfa181;
+      }
+      .ck {
+        background-color: #00ffff;
+      }
+      .cl {
+        background-color: #dd2e18;
+      }
+      .cm {
+        background-color: #dd2e18;
+      }
+      .cn {
+        background-color: #dd2e18;
+      }
+      .co {
+        background-color: #dd2e18;
+      }
+      .cp {
+        background-color: #dd2e18;
+      }
+      .cq {
+        background-color: #dd2e18;
+      }
+      .cr {
+        background-color: #dd2e18;
+      }
+      .cs {
+        background-color: #dd2e18;
+      }
+      .ct {
+        background-color: #c5adc5;
+      }
+      .cu {
+        background-color: #96c2db;
+      }
+      .cw {
+        background-color: #96c2db;
+      }
+      .cx {
+        background-color: #96c2db;
+      }
+      .cy {
+        background-color: #96c2db;
+      }
+      .cz {
+        background-color: #96c2db;
+      }
+      .ca {
+        background-color: #96c2db;
+      }
+      .cb {
+        background-color: #96c2db;
+      }
+      .hh {
+        background-color: #fcba03;
+      }
+      .nn {
+        background-color: #fa87df;
+      }
+      td {
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>The Periodic Table</h1>
+      <table class="table1" cellpadding="10">
+        <tr>
+          <td class="am">H</td>
+          <td colspan="16"></td>
+          <td class="cu">He</td>
+        </tr>
+        <tr>
+          <td class="cl">Li</td>
+          <td class="ce">Be</td>
+          <td colspan="10"></td>
+          <td class="hh">B</td>
+          <td class="ac">C</td>
+          <td class="ad">N</td>
+          <td class="ae">O</td>
+          <td class="af">F</td>
+          <td class="cw">Ne</td>
+        </tr>
+        <tr>
+          <td class="cm">Na</td>
+          <td class="cf">Mg</td>
+          <td colspan="10"></td>
+          <td class="nn">Al</td>
+          <td class="hh">Si</td>
+          <td class="ag">P</td>
+          <td class="ah">S</td>
+          <td class="ai">Cl</td>
+          <td class="cx">Ar</td>
+        </tr>
+        <tr>
+          <td class="cn">K</td>
+          <td class="cg">Ca</td>
+          <td class="ax">Sc</td>
+          <td class="ay">Ti</td>
+          <td class="az">V</td>
+          <td class="ba">Cr</td>
+          <td class="bb">Mn</td>
+          <td class="bc">Fe</td>
+          <td class="bd">Co</td>
+          <td class="be">Ni</td>
+          <td class="bf">Cu</td>
+          <td class="bg">Zn</td>
+          <td class="nn">Ga</td>
+          <td class="hh">Ge</td>
+          <td class="hh">As</td>
+          <td class="aj">Se</td>
+          <td class="ak">Br</td>
+          <td class="ca">Kr</td>
+        </tr>
+        <tr>
+          <td class="co">Rb</td>
+          <td class="ch">Sr</td>
+          <td class="bh">Y</td>
+          <td class="bi">Zr</td>
+          <td class="bj">Nb</td>
+          <td class="bj">Mo</td>
+          <td class="bk">Tc</td>
+          <td class="bl">Ru</td>
+          <td class="bm">Rh</td>
+          <td class="bn">Pd</td>
+          <td class="bo">Ag</td>
+          <td class="bp">Cd</td>
+          <td class="nn">In</td>
+          <td class="nn">Sn</td>
+          <td class="hh">Sb</td>
+          <td class="hh">Te</td>
+          <td class="al">I</td>
+          <td class="ca">Xe</td>
+        </tr>
+        <tr>
+          <td class="cp">Cs</td>
+          <td class="ci">Ba</td>
+          <td class="ck">La</td>
+          <td class="bq">Hf</td>
+          <td class="br">Ta</td>
+          <td class="bs">W</td>
+          <td class="bt">Re</td>
+          <td class="bu">Os</td>
+          <td class="bv">Ir</td>
+          <td class="bw">Pt</td>
+          <td class="bx">Au</td>
+          <td class="by">Hg</td>
+          <td class="nn">Tl</td>
+          <td class="nn">Pb</td>
+          <td class="nn">Bi</td>
+          <td class="nn">Po</td>
+          <td class="nn">At</td>
+          <td class="ca">Rn</td>
+        </tr>
+        <tr>
+          <td class="cq">Fr</td>
+          <td class="cj">Ra</td>
+          <td class="ct">Ac</td>
+          <td class="bz">Rf</td>
+          <td class="ca">Db</td>
+          <td class="cb">Sg</td>
+          <td class="cc">Bh</td>
+          <td class="cd">Hs</td>
+          <td class="an">Mt</td>
+          <td class="ao">Ds</td>
+          <td class="ap">Rg</td>
+          <td class="aq">Cn</td>
+          <td class="ar">Nh</td>
+          <td class="as">Fl</td>
+          <td class="at">Mc</td>
+          <td class="au">Lv</td>
+          <td class="av">Ts</td>
+          <td class="aw">Og</td>
+        </tr>
+      </table>
+      <table class="table2" cellpadding="10">
+        <tr>
+          <td class="p">Ce</td>
+          <td class="q">Pr</td>
+          <td class="r">Nd</td>
+          <td class="s">Pm</td>
+          <td class="t">Sm</td>
+          <td class="u">Eu</td>
+          <td class="v">Gb</td>
+          <td class="w">Tb</td>
+          <td class="x">Dy</td>
+          <td class="y">Ho</td>
+          <td class="z">Er</td>
+          <td class="j">Tm</td>
+          <td class="aa">Yb</td>
+          <td class="ab">Lu</td>
+        </tr>
+        <tr>
+          <td class="a">Th</td>
+          <td class="b">Pa</td>
+          <td class="c">U</td>
+          <td class="d">Np</td>
+          <td class="e">Pu</td>
+          <td class="f">Am</td>
+          <td class="g">Cm</td>
+          <td class="h">Bk</td>
+          <td class="i">Cf</td>
+          <td class="k">Es</td>
+          <td class="l">Fm</td>
+          <td class="m">Md</td>
+          <td class="n">No</td>
+          <td class="o">Lr</td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
